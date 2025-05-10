@@ -1,4 +1,3 @@
-
 import React from 'react';
 import DataCard from './DataCard';
 import AnalyticsChart from './AnalyticsChart';
@@ -147,20 +146,20 @@ const SocialMediaAnalysis = () => {
           <div className="border rounded-md p-3">
             <p className="text-sm font-medium text-muted-foreground">Social Media Recommendations</p>
             <ul className="mt-2 space-y-2 text-sm">
-              <li className="flex items-center gap-2">
-                <div className="h-2 w-2 rounded-full bg-purple-500"></div>
+              <li className="flex items-center gap-3 p-2 rounded-md hover:bg-secondary/10 transition-colors">
+                <div className="h-2 w-2 rounded-full bg-secondary"></div>
                 <span>Increase video content production focused on tutorials and how-to guides</span>
               </li>
-              <li className="flex items-center gap-2">
-                <div className="h-2 w-2 rounded-full bg-purple-500"></div>
+              <li className="flex items-center gap-3 p-2 rounded-md hover:bg-secondary/10 transition-colors">
+                <div className="h-2 w-2 rounded-full bg-secondary"></div>
                 <span>Optimize posting schedule to align with peak engagement times (2-4 PM Tuesday/Thursday)</span>
               </li>
-              <li className="flex items-center gap-2">
-                <div className="h-2 w-2 rounded-full bg-purple-500"></div>
+              <li className="flex items-center gap-3 p-2 rounded-md hover:bg-secondary/10 transition-colors">
+                <div className="h-2 w-2 rounded-full bg-secondary"></div>
                 <span>Develop more infographic content to improve sharing and engagement</span>
               </li>
-              <li className="flex items-center gap-2">
-                <div className="h-2 w-2 rounded-full bg-purple-500"></div>
+              <li className="flex items-center gap-3 p-2 rounded-md hover:bg-secondary/10 transition-colors">
+                <div className="h-2 w-2 rounded-full bg-secondary"></div>
                 <span>Consider allocating more resources to Instagram which shows highest ROI</span>
               </li>
             </ul>
