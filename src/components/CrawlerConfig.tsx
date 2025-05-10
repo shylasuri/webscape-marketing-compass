@@ -11,7 +11,7 @@ const CrawlerConfig = () => {
     <DataCard title="Crawler Configuration">
       <div className="space-y-4">
         <div>
-          <label className="text-sm font-medium">Target URL</label>
+          <label className="text-sm font-medium">Target Company</label>
           <Input 
             placeholder="https://example.com" 
             className="mt-1"
