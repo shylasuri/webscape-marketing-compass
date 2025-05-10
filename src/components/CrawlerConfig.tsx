@@ -13,7 +13,7 @@ const CrawlerConfig = () => {
         <div>
           <label className="text-sm font-medium">Target Company</label>
           <Input 
-            placeholder="Zepto" 
+            placeholder="example - zepto" 
             className="mt-1"
           />
         </div>
